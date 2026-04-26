@@ -28,7 +28,8 @@ function DashboardContent() {
   const toIdx = Math.max(fromIdx, S.months.indexOf(to));
   const months = S.months.slice(fromIdx, toIdx + 1);
   const slice = (arr: (number | null)[]) => arr.slice(fromIdx, toIdx + 1);
-  const sum = (arr: (number | null)[]) => arr.reduce((a, v) => a + (typeof v === "number" ? v : 0), 0);
+  const sum = (arr: (number | null)[]): number =>
+    arr.reduce<number>((a, v) => a + (typeof v === "number" ? v : 0), 0);
 
   function fmtCell(v: number | null) {
     if (v == null) return <span className="cell-na">—</span>;
