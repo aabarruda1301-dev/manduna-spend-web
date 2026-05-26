@@ -770,7 +770,7 @@
     },
     {
      "num": 26,
-     "name": "26. Maintenance Spare Part Boat",
+     "name": "26. Maintenance Sparepart Boat",
      "hasDetail": true,
      "monthly": [
       0,
@@ -908,7 +908,7 @@
     },
     {
      "num": 32,
-     "name": "32. Maint. Spare Part Jet Sky",
+     "name": "32. Maint. Sparepart Jet Sky",
      "hasDetail": true,
      "monthly": [
       0,
@@ -1001,7 +1001,7 @@
     {
      "num": 36,
      "name": "36. Maintenance Spare Part Kayak",
-     "hasDetail": true,
+     "hasDetail": false,
      "monthly": [
       0,
       0,
@@ -1019,6 +1019,29 @@
       0,
       0,
       null
+     ]
+    },
+    {
+     "num": "36A",
+     "name": "36A. Maintanance Service Motorc",
+     "hasDetail": true,
+     "monthly": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      130000.0
      ]
     }
    ],
@@ -1115,7 +1138,7 @@
     },
     {
      "num": 40,
-     "name": "40. COGS Transp Ticket Accomod",
+     "name": "40. COGS Transp Tiket Accomod",
      "hasDetail": true,
      "monthly": [
       0,
@@ -1391,7 +1414,7 @@
     },
     {
      "num": 51,
-     "name": "51. Accommodation And Transport",
+     "name": "51. Accomodation And Transport",
      "hasDetail": true,
      "monthly": [
       0,
@@ -1483,7 +1506,7 @@
    "categories": [
     {
      "num": 53,
-     "name": "53. Commission for Online Travel",
+     "name": "53. Commision for Online Travel",
      "hasDetail": true,
      "monthly": [
       0,
